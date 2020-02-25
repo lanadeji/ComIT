@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Spiderman</title>
+    <link rel="stylesheet" href="16-site.css">
+  </head>
+
+  <body>
+    <header>
+      <div><img height="300" src="https://blogintomystery.files.wordpress.com/2010/09/asmreada.jpg" /img></div>
+      <div><h2>Your Friendly Neighbourhood Spiderman</h2></div>
+      <nav>
+        <a href="16-home.html">Home</a> |
+        <a href="16-about.html">About</a> |
+        <a href="16-contact.html">Contact</a>
+      </nav>
+    </header>      
+    <hr />
+    
+    <main>
+      <h1>Contact</h1>
+      <form action="16-contact-success.html" method="GET">
+         <div class="form-field">
+          <label for="nameField"></label>
+          Name: <input id="nameField" name="name" type="text" placeholder="enter your name here" size="30" maxlength="50" />
+        </div>
+        <div class="form-field">
+          <label for="emailField"></label>
+          Email: <input id="emailField" name="email" type="text" placeholder="enter your email address here" size="30" />
+        </div>
+        <div class=form-field>
+          <label for="nameField"></label>
+          Message: <textarea name="Bio" type="text" placeholder="enter your message here"></textarea>
+        </div>
+        <br />
+        <div class="form-field">
+          <input type="submit" value="Send" />
+      </form>
+    </main>
+  </body>
+</html>
