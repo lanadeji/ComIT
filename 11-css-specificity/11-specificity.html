@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>CSS Specificity</title>
+    <style>
+      .first-group{
+        text-align: right;
+      }
+      .first-group > p:first-child {
+        font-style: italic;
+      }
+      .first-group > p:nth-child(2) {
+        background-color: blue;
+        color: rgb(255, 255, 255);
+      }
+      .first-group span{
+        font-size: 24px;
+        
+      }
+      .second-group > p:first-child{
+        background-color: rgb(224, 24, 233);
+      }
+      .second-group > p:nth-child(2){
+        text-transform: uppercase;
+      }
+      .second-group > p:nth-child(3){
+        text-transform: capitalize;
+      }
+      a.active{
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <h1>Arsenal F.C.</h1>
+    </center>
+
+    <main>
+      <div class="first-group">
+        <p>
+          Arsenal Football Club is a professional football club based in Islington, London, England, that plays in the Premier League, the top flight of English football. The club has won 13 League titles, a record 13 FA Cups, 2 League Cups, 15 FA Community Shields, 1 League Centenary Trophy, 1 UEFA Cup Winners' Cup and 1 Inter-Cities Fairs Cup.
+        </p>
+        <p>
+          Arsenal was the first club from the South of England to join The Football League, in 1893, and they reached the First Division in 1904. Relegated only once, in 1913, they continue the longest streak in the top division,and have won the second-most top-flight matches in English football history. In the 1930s, Arsenal won five League Championships and two FA Cups, and another FA Cup and two Championships after the war. In 1970–71, they won their first League and FA Cup Double. Between 1989 and 2005, they won five League titles and five FA Cups, including two more Doubles. They completed the 20th century with the highest average league position.
+        </p>
+        <p>
+          Herbert Chapman won Arsenal's first national trophies, but died prematurely. He helped introduce the WM formation, floodlights, and shirt numbers, and added the white sleeves and brighter red to the club's kit. <span>Arsène Wenger</span> was the longest-serving manager and won the most trophies. He won a record 7 FA Cups, and his title-winning team set an English record for the longest top-flight unbeaten league run at 49 games between 2003 and 2004, receiving the nickname <a href="#" class="active">The Invincibles</a>.
+        </p>
+      </div>
+      <div class="second-group">
+        <p>
+          Arsenal's tally of 13 League Championships is the third highest in English football, after Manchester United (20) and Liverpool (18), and they were the first club to reach a seventh and an eighth League Championship. As of August 2019, they are one of only six teams, the others being Manchester United, Blackburn Rovers, Chelsea, Manchester City and Leicester City, to have won the Premier League since its formation in 1992.
+        </p>
+        <p>
+          They hold the highest number of FA Cup trophies, with 13. The club is one of only six clubs to have won the FA Cup twice in succession, in 2002 and 2003, and 2014 and 2015. Arsenal have achieved three League and FA Cup "Doubles" (in 1971, 1998 and 2002), a feat only previously achieved by Manchester United (in 1994, 1996 and 1999). They were the first side in English football to complete the FA Cup and League Cup double, in 1993. Arsenal were also the first London club to reach the final of the UEFA Champions League, in 2006, losing the final 2–1 to Barcelona.
+        </p>
+        <p>
+          Arsenal have one of the best top-flight records in history, having finished below fourteenth only seven times. They have won the second most top flight league matches in English football, and have also accumulated the second most points, whether calculated by two points per win or by the contemporary points value. They have been in the top flight for the most consecutive seasons (92 as of 2017–18). Arsenal also have the highest average league finishing position for the 20th century, with an average league placement of 8.5.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

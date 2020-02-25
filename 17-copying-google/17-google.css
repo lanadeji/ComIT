@@ -1,0 +1,161 @@
+/* Universal styling to determine font type similar to Google's page */
+*{
+  font-family: sans-serif;
+}
+
+/* Styling for top navigation bar of webpage */
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 5vh;
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
+}
+
+nav img{
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+nav a{
+  margin-right: 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+#pro-pic{
+  border-radius: 50%;
+}
+
+
+/* Styling for body of webpage */
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  margin-bottom: 25px;
+}
+
+.google-logo{
+  padding-top: 50px;
+  width: 325px;
+  height: auto;
+}
+
+.search-container{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.search-container img{
+  width: 20px;
+  height: auto;
+}
+
+.search-container input{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 500px;
+  height: 20px;
+  border: 0;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-container button{
+  margin-right: 10px;
+  background: #f2f2f2;
+  color: #333;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 16px;
+}
+
+#google-text{
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+#google-text a{
+  text-decoration: none;
+  color: blue;
+}
+
+#google-text a:hover{
+  text-decoration: underline;
+}
+
+
+
+/* Styling for bottom of page */
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding-left: 25px;
+}
+
+.canada{
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  height: 5vh;
+  padding-left: 25px;
+  font-size: 15px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+.footer-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #e8e8e8;
+  height: 5vh;
+  background-color: #f0f0f0;
+}
+
+.footer-links a{
+  align-items: center;
+  padding-right: 10px;
+}
+
+#foot-nav-right{
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+}
+#foot-nav-left{
+  display: flex;
+  align-items: center;
+}
+

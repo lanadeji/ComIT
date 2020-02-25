@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Create User</title>
+  </head>
+  <body>
+    <h1>Create User</h1>
+    <hr />
+
+    <form action="07-create-user.html" method="GET">
+      <div>
+        <label for="emailField"></label>
+        Email: <input id="emailField" name="email" type="text" placeholder="email" size="55" required />
+      </div>
+      <div>
+        <label for="nameField"></label>
+        Username: <input id="nameField" name="Username" type="text" placeholder="username" size="30" maxlength="12" required />
+      </div>
+      <div>
+        <label for="nameField"></label>
+        Password: <input id="nameField" name="Password" type="password" placeholder="password" size="30" maxlength="8" required />
+      </div>
+      <div>
+        Bio: <br />
+        <label for="nameField"></label>
+        <textarea name="Bio" type="text" placeholder="give a brief description of this user"></textarea>
+      </div><br />
+
+      <fieldset>
+        <legend>Interests</legend>
+
+        Select your favourite superhero:
+        <input type="radio" name="superhero" value="superman" />
+        Superman
+        <input type="radio" name="superhero" value="batman" />
+        Batman
+        <input type="radio" name="superhero" value="wonderwoman" />
+        Wonder Woman
+        <input type="radio" name="superhero" value="flash" />
+        Flash
+        <input type="radio" name="superhero" value="thor" />
+        Thor
+        <input type="radio" name="superhero" value="hulk" />
+        Hulk
+        <br />
+
+        Select your favourite video game:
+        <input type="checkbox" name="videogame" value="fifa" />
+        FIFA
+        <input type="checkbox" name="videogame" value="nhl" />
+        NHL
+        <input type="checkbox" name="videogame" value="residentevil" />
+        Resident Evil
+        <input type="checkbox" name="videogame" value="uncharted" />
+        Uncharted
+      </fieldset><br />
+      <div>
+        <input type="submit" value="Create User!"/>
+      </div>
+
+    </form>
+
+
+  </body>
+</html>
