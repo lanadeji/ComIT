@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <style>
+      header {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background-color: hotpink;
+    }
+      .main-content{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: orchid;
+      }
+      article{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        flex: 200px;
+        background-color: orange;
+      }
+      p{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+      }
+      h1{
+        text-align: center;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 8px;
+      }
+      #special-image{
+        display: block;
+        width: 90%;
+        border-radius: 8px; 
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header><h1>Black Widow (2020)</h1></header>
+    
+    <div class="main-content">
+      <article>
+        <h1>Home</h1>
+        <p>
+          <img height="400" src="https://m.media-amazon.com/images/M/MV5BMjU2OGEwYTQtNTJiZC00NjU2LWE5OTItMzUzMzZmZDM2OTNjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg">
+        </p>
+        <p>
+          A film about Natasha Romanoff in her quests between the films Civil War and Infinity War.
+        </p>
+        <p>
+          Black Widow is an upcoming American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is intended to be the twenty-fourth film in the Marvel Cinematic Universe (MCU). The film was directed by Cate Shortland and written by Eric Pearson from a story by Jac Schaeffer and Ned Benson, and stars Scarlett Johansson as Natasha Romanoff / Black Widow alongside Florence Pugh, David Harbour, O-T Fagbenle, William Hurt, Ray Winstone, and Rachel Weisz. Set after Captain America: Civil War (2016), the film sees Romanoff on the run and forced to confront her past.
+        </p>
+        <p>
+          <img height="350" src="https://i.pinimg.com/originals/aa/ce/2a/aace2a497b277e6264c707c35e462130.jpg">
+          <img height="350" src="https://www.biosagenda.nl/poster/black-widow_28342_600_0_90.jpg">
+        </p>
+        <p>
+          Development of a Black Widow film began in April 2004 by Lionsgate, with David Hayter attached to write and direct. The project did not move forward and the film rights to the character reverted to Marvel Studios by June 2006. Johansson was cast in the role for several MCU films beginning with Iron Man 2 (2010). Marvel and Johansson expressed interest in a solo film several times over the following years, before Schaeffer and Shortland were hired in 2018. Benson joined and further casting took place in early 2019. Filming took place from May to October, in Norway, Budapest, Morocco, Pinewood Studios in England, and in Atlanta and Macon, Georgia.<br />
+          Black Widow is scheduled to be released in the United States on May 1, 2020.
+        </p>
+      </article>
+    
+      <article>
+        <h1>About</h1>
+        <p>
+          Natalia Alianovna "Natasha" Romanova (Russian: Наталья Альяновна "Наташа" Романова; alias: Natasha Romanoff; Russian: Наташа Романоф), colloquial: Black Widow (Russian: Чёрная Вдова; transliterated Chyornaya Vdova) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by editor and plotter Stan Lee, scripter Don Rico, and artist Don Heck, the character debuted in Tales of Suspense #52 (April 1964). The character was introduced as a Russian spy, an antagonist of the superhero Iron Man. She later defected to the United States, becoming an agent of the fictional spy agency S.H.I.E.L.D. and a member of the superhero team the Avengers.
+        </p>
+        <p>
+          <img height="400" src="https://upload.wikimedia.org/wikipedia/en/1/1b/Black_Widow_1.png">
+        </p>
+        <p>
+          Scarlett Johansson portrays the character in the Marvel Cinematic Universe films Iron Man 2 (2010), The Avengers (2012), Captain America: The Winter Soldier (2014), Avengers: Age of Ultron (2015), Captain America: Civil War (2016), Avengers: Infinity War (2018), Captain Marvel and Avengers: Endgame (both 2019). Johansson will reprise the role in the prequel film Black Widow (2020).
+        </p>
+        <p>
+          The Black Widow's first appearances were as a recurring, non-costumed, Russian-spy antagonist in the feature "Iron Man", beginning in Tales of Suspense #52 (April 1964). Five issues later, she recruits the besotted costumed archer and later superhero Hawkeye to her cause. Her government later supplies her with her first Black Widow costume and high-tech weaponry, but she eventually defects to the United States after appearing, temporarily brainwashed against the U.S., in the superhero-team series The Avengers #29 (July 1966). The Widow later becomes a recurring ally of the team before officially becoming its sixteenth member many years later.<br />
+          The Black Widow was visually updated in 1970: The Amazing Spider-Man #86 (July 1970) reintroduced her with shoulder-length red hair (instead of her former short black hair), a skintight black costume, and wristbands which fired spider threads. This would become the appearance most commonly associated with the character.
+        </p>
+      </article>
+      
+      <article>
+        <h1>News</h1>
+        <p>
+          <img height="300" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rachel-weisz-and-scarlett-johansson-of-marvel-studios-black-news-photo-1571664525.jpg?crop=0.803xw:0.567xh;0,0.0492xh&resize=480:*">
+        </p>
+        <p>
+          A new trailer for Marvel Studios’ Black Widow finally properly introduces Scarlett Johansson’s Natasha Romanoff to a fresh Marvel Cinematic Universe villain: Taskmaster, a trained mercenary.
+        </p>
+        <p>
+          The trailer also teases a reunion between other characters from Natasha’s past, including Florence Pugh’s Yelena Belova. Belova becomes the second Black Widow in the comics series, and is referred to as Romanoff’s sister in the trailer. David Harbour plays Red Guardian, a Soviet equivalent of Captain America. He’s seen interacting in the trailer with Romanoff, Belova, and others whom he refers to as his family.
+        </p>
+        <div>
+          <img id="special-image" src="https://i.ytimg.com/vi/W8ODwGH7Z9c/maxresdefault.jpg">
+        </div>
+        <p>
+          Those who have seen Avengers: Endgame know that Black Widow died while protecting her longtime partner, Clint Barton (Hawkeye), in an effort to collect the Soul Stone in order to defeat Thanos. Black Widow takes place before Endgame, in the period between Captain America: Civil War (2016) and Avengers: Infinity War (2018).<br />
+          Black Widow is one of Marvel Studios’ two big movie projects this year. It will be released on May 1st. The Eternals, an entirely new superhero movie within the Marvel Cinematic Universe, will follow on November 6th. Marvel Studios will also release two of its most anticipated Disney+ original series, The Falcon and the Winter Solider and WandaVision, both of which center on characters from the Infinity Saga, later in the year.
+        </p>
+      </article> 
+    </div>   
+  </body>
+</html>
